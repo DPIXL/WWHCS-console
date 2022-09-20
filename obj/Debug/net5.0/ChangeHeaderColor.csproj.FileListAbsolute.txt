@@ -1,0 +1,39 @@
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.exe
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.deps.json
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.runtimeconfig.json
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.runtimeconfig.dev.json
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.dll
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ref\ChangeHeaderColor.dll
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.pdb
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.csprojAssemblyReference.cache
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.AssemblyInfoInputs.cache
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.AssemblyInfo.cs
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.csproj.CoreCompileInputs.cache
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.dll
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ref\ChangeHeaderColor.dll
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.pdb
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.genruntimeconfig.cache
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ChangeHeaderColor.exe
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ChangeHeaderColor.deps.json
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ChangeHeaderColor.runtimeconfig.json
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ChangeHeaderColor.runtimeconfig.dev.json
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ChangeHeaderColor.dll
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ref\ChangeHeaderColor.dll
+C:\Users\stepa\Desktop\myPrograms\C# regedits\ChangeHeaderColor\Release\ChangeHeaderColor.pdb
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.exe
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.deps.json
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.runtimeconfig.json
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.runtimeconfig.dev.json
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.dll
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\bin\Debug\net5.0\ChangeHeaderColor.pdb
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.csproj.AssemblyReference.cache
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.AssemblyInfoInputs.cache
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.AssemblyInfo.cs
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.csproj.CoreCompileInputs.cache
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.dll
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\refint\ChangeHeaderColor.dll
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.pdb
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.genruntimeconfig.cache
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ref\ChangeHeaderColor.dll
