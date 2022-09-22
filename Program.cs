@@ -14,11 +14,12 @@ namespace ChangeHeaderColor
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nWrite your desired color theme, these are the current options:");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("dark, accent, oldschool, default");
+            Console.WriteLine("dark, accent, oldschool, xbox, blood, sky, default");
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("If you want to know more about these Themes, write 'desc'");
+            Console.WriteLine("If you're done, type 'quit' or 'exit'");
 
-            while(looper == 1)
+            while (looper == 1)
             {   
                 Console.ForegroundColor = ConsoleColor.DarkGray;
                 string chosenTheme = Console.ReadLine();
@@ -26,29 +27,40 @@ namespace ChangeHeaderColor
                 if(chosenTheme == "dark")
                 {
                     SetHeaderColors(0);
-                    looper = 0;
+                    looper = 1;
                 }
-                else if(chosenTheme == "accent")
+                else if(chosenTheme == "xbox")
                 {
                     SetHeaderColors(1);
-                    looper = 0;
+                    looper = 1;
                 }
                 else if(chosenTheme == "oldschool")
                 {
                     SetHeaderColors(2);
-                    looper = 0;
+                    looper = 1;
                 }
                 else if(chosenTheme == "default")
                 {
                     SetHeaderColors(3);
-                    looper = 0;
+                    looper = 1;
                 }
-                else if(chosenTheme == "desc")
+                else if(chosenTheme == "blood") {
+                    SetHeaderColors(4);
+                    looper = 1;
+                }
+                else if(chosenTheme == "sky") {
+                    SetHeaderColors(5);
+                    looper = 1;
+                }
+                else if(chosenTheme == "desc" || chosenTheme == "help")
                 {
                     Console.ForegroundColor = ConsoleColor.Gray;
-                    Console.WriteLine("'dark' - headers are black\n'accent' - the color of headers is set to your Windows accent color\n'oldschool' - dark blue color, looks bluescreen-ish\n'default' - these are just the default headers, mostly white");
+                    Console.WriteLine("'dark' - headers are black\n'xbox' - headers are Xbox style green\n'oldschool' - dark blue color, looks bluescreen-ish\n'blood' - Bloody red\n'sky' - Sky blue, pretty\n'default' - these are just the default headers, mostly white");
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("Now, choose one of the Themes mentioned above:");
+                }
+                else if(chosenTheme == "quit" || chosenTheme == "exit") {
+                    looper = 0;
                 }
                 else
                 {
@@ -68,36 +80,48 @@ namespace ChangeHeaderColor
 
             int selectedTheme = _selectedTheme;
             int[] color = new int[4];
-            //1 = Active color; 2 = Inactive color; 3 = outline; 4 = use the custom stuff or not(be default)
-            //color 2 should be the same as colo 1
 
-            if(selectedTheme == 0)
+            if(selectedTheme == 0) //dark
             {
-                color[0] = 0x00141414;
-                color[1] = 0x000d0d0d;
-                color[2] = 0x00141414;
+                color[0] = 0x00141414; //Active color
+                color[1] = 0x000d0d0d; //Inactive color
+                color[2] = 0x00141414; //Outline color (must be same as Active color otherwise broken)
+                color[3] = 1; //Be custom or not (0 == be default)
+            }
+            if(selectedTheme == 1) //Xbox green
+            {
+                color[0] = 0x00008700;
+                color[1] = 0x00004100;
+                color[2] = 0x00008700;
                 color[3] = 1;
             }
-            if(selectedTheme == 1)
-            {
-                color[0] = 0;
-                color[1] = 0;
-                color[2] = 0;
-                color[3] = 1;
-            }
-            if(selectedTheme == 2)
+            if(selectedTheme == 2) //oldschool ugly fcking blue
             {
                 color[0] = 0x009f0000;
                 color[1] = 0x00510000;
-                color[2] = 0x009f0000;
+                color[2] = 0x00141414;
                 color[3] = 1;
             }
-            if(selectedTheme == 3)
+            if(selectedTheme == 3) //default lame
             {
                 color[0] = 0;
                 color[1] = 0;
                 color[2] = 0;
                 color[3] = 0;
+            }
+            if (selectedTheme == 4) //Blood (Red)
+            {
+                color[0] = 0x00040068;
+                color[1] = 0x0002003b;
+                color[2] = 0x00040068;
+                color[3] = 1;
+            }
+            if (selectedTheme == 5) //Sky (actually good looking blue)
+            {
+                color[0] = 0x00ffd799;
+                color[1] = 0x007f5d28;
+                color[2] = 0x00ffd799;
+                color[3] = 1;
             }
 
             DWM.SetValue("AccentColor", color[0], RegistryValueKind.DWord);
