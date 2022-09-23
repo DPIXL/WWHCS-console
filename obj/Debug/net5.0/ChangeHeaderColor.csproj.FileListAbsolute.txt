@@ -37,3 +37,9 @@ C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\re
 C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.pdb
 C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ChangeHeaderColor.genruntimeconfig.cache
 C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\obj\Debug\net5.0\ref\ChangeHeaderColor.dll
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\Release\ChangeHeaderColor.exe
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\Release\ChangeHeaderColor.deps.json
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\Release\ChangeHeaderColor.runtimeconfig.json
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\Release\ChangeHeaderColor.runtimeconfig.dev.json
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\Release\ChangeHeaderColor.dll
+C:\Users\EditBySteve\Desktop\myPrograms\C#\ChangeHeaderColor\Release\ChangeHeaderColor.pdb

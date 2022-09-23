@@ -4,17 +4,21 @@ using Microsoft.Win32;
 namespace ChangeHeaderColor
 {
     class Program
-    {       
+    {
+        public static int mainColor;
+        public static int otherColor;
+
         static void Main(string[] args)
         {
             int looper = 1;
 
+            Console.Title = "WWHCS - Header Modifier";
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("Welcome to Windows Window Header Color Selector! (WWHCS!)");
+            Console.WriteLine("Welcome to Windows Window Header Color Selector 3.0! (WWHCS3!)");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nWrite your desired color theme, these are the current options:");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("dark, accent, oldschool, xbox, blood, sky, default");
+            Console.WriteLine("dark, oldschool, xbox, blood, sky, default");
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("If you want to know more about these Themes, write 'desc'");
             Console.WriteLine("If you're done, type 'quit' or 'exit'");
@@ -51,6 +55,15 @@ namespace ChangeHeaderColor
                 else if(chosenTheme == "sky") {
                     SetHeaderColors(5);
                     looper = 1;
+                }
+                else if(chosenTheme == "custom") {
+                    Console.WriteLine("Please write Hex code already converted to Decimal");
+                    Console.Write("Input Main color:");
+                    mainColor = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Input Unfocused color:");
+                    otherColor = Convert.ToInt32(Console.ReadLine());
+
+                    SetHeaderColors(6);
                 }
                 else if(chosenTheme == "desc" || chosenTheme == "help")
                 {
@@ -99,7 +112,7 @@ namespace ChangeHeaderColor
             {
                 color[0] = 0x009f0000;
                 color[1] = 0x00510000;
-                color[2] = 0x00141414;
+                color[2] = 0x009f0000;
                 color[3] = 1;
             }
             if(selectedTheme == 3) //default lame
@@ -121,6 +134,13 @@ namespace ChangeHeaderColor
                 color[0] = 0x00ffd799;
                 color[1] = 0x007f5d28;
                 color[2] = 0x00ffd799;
+                color[3] = 1;
+            }
+            if(selectedTheme == 6) 
+            {
+                color[0] = mainColor;
+                color[1] = otherColor;
+                color[2] = mainColor;
                 color[3] = 1;
             }
 
