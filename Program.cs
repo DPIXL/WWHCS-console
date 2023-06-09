@@ -14,13 +14,17 @@ namespace ChangeHeaderColor
 
             Console.Title = "WWHCS - Header Modifier";
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("Welcome to Windows Window Header Color Selector 3.2! (WWHCS3!)");
+            Console.WriteLine("Welcome to Windows Window Header Color Selector 3.3! (WWHCS3!)");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nWrite your desired color theme, these are the current options:");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("dark, oldschool, xbox, blood, sky, ebs, default");
+            Console.WriteLine("New 3.3 themes: violet, neon, absolutes, metal");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("You can also write 'custom' if you wanna input your own colors.");
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("If you want to know more about these Themes, write 'desc'");
+            Console.WriteLine("Write 'info' if you want to know something about this app");
             Console.WriteLine("If you're done, type 'quit' or 'exit'");
 
             while (looper == 1)
@@ -60,6 +64,22 @@ namespace ChangeHeaderColor
                     SetHeaderColors(6);
                     looper = 1;
                 }
+                else if(chosenTheme == "violet") {
+                    SetHeaderColors(7);
+                    looper = 1;
+                }
+                else if (chosenTheme == "neon") {
+                    SetHeaderColors(8);
+                    looper = 1;
+                }
+                else if (chosenTheme == "absolutes") {
+                    SetHeaderColors(9);
+                    looper = 1;
+                }
+                else if (chosenTheme == "metal") {
+                    SetHeaderColors(10);
+                    looper = 1;
+                }
                 else if(chosenTheme == "custom") {
                     Console.WriteLine("Please write Hex code already converted to Decimal");
                     Console.Write("Input Main color:");
@@ -72,9 +92,13 @@ namespace ChangeHeaderColor
                 else if(chosenTheme == "desc" || chosenTheme == "help")
                 {
                     Console.ForegroundColor = ConsoleColor.Gray;
-                    Console.WriteLine("'dark' - headers are black\n'xbox' - headers are Xbox style green\n'oldschool' - dark blue color, looks bluescreen-ish\n'blood' - Bloody red\n'sky' - Sky blue, pretty\n'ebs' - My favourite, red and blue\n'default' - these are just the default headers, mostly white");
+                    Console.WriteLine("'dark' - headers are black\n'xbox' - headers are Xbox style green\n'oldschool' - dark blue color, looks bluescreen-ish\n'blood' - Bloody red\n'sky' - Sky blue, pretty\n'ebs' - My favourite, red and blue\n'violet' - Basically a purple theme\n'neon' - Light purple and light blue\n'absolutes' - Black and White\n'metal' - black and red, very metal\n'default' - these are just the default headers, mostly white");
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("Now, choose one of the Themes mentioned above:");
+                }
+                else if (chosenTheme == "info") {
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.WriteLine("This is a simple C# program that makes a simple registry edit a bit easier.\nMade by Štěpán Václav 'DeadPixel' Patejdl, a SSŠVT student.\nI really hope you like this simple CMD program!");
                 }
                 else if(chosenTheme == "quit" || chosenTheme == "exit") {
                     looper = 0;
@@ -147,7 +171,35 @@ namespace ChangeHeaderColor
                 color[2] = 0x00b44900;
                 color[3] = 1;
             }
-            if(selectedTheme == 66) 
+            if (selectedTheme == 7) //Purple
+            {
+                color[0] = 0x00ff3bbe;
+                color[1] = 0x008a1764;
+                color[2] = 0x00ff3bbe;
+                color[3] = 1;
+            }
+            if (selectedTheme == 8) //2023 logo style
+            {
+                color[0] = 0x00ff9100;
+                color[1] = 0x008a1764;
+                color[2] = 0x00ff9100;
+                color[3] = 1;
+            }
+            if (selectedTheme == 9) //Only a sith deals in absolutes
+            {
+                color[0] = 0x00ffffff;
+                color[1] = 0x000d0d0d;
+                color[2] = 0x00ffffff;
+                color[3] = 1;
+            }
+            if (selectedTheme == 10) //Metal (Red and Black)
+            {
+                color[0] = 0x001f1c80;
+                color[1] = 0x000d0d0d;
+                color[2] = 0x001f1c80;
+                color[3] = 1;
+            }
+            if (selectedTheme == 66) 
             {
                 color[0] = mainColor;
                 color[1] = otherColor;
